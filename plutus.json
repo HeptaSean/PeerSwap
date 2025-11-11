@@ -1,0 +1,46 @@
+{
+  "preamble": {
+    "title": "heptasean/peerswap",
+    "description": "Aiken contracts for project 'heptasean/peerswap'",
+    "version": "0.0.0",
+    "plutusVersion": "v3",
+    "compiler": {
+      "name": "Aiken",
+      "version": "v1.1.19+e525483"
+    },
+    "license": "Apache-2.0"
+  },
+  "validators": [
+    {
+      "title": "peerswap.peerswap.spend",
+      "datum": {
+        "title": "_datum",
+        "schema": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "redeemer": {
+        "title": "_redeemer",
+        "schema": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "compiledCode": "585c01010029800aba2aba1aab9eaab9dab9a4888896600264653001300600198031803800cc0180092225980099b8748008c01cdd500144c8cc892818050009805180580098041baa0028a51401830060013003375400d149a26cac8009",
+      "hash": "0e162da7141476a8791128d281193c19a197dc60de306037d9ddb6ec"
+    },
+    {
+      "title": "peerswap.peerswap.else",
+      "redeemer": {
+        "schema": {}
+      },
+      "compiledCode": "585c01010029800aba2aba1aab9eaab9dab9a4888896600264653001300600198031803800cc0180092225980099b8748008c01cdd500144c8cc892818050009805180580098041baa0028a51401830060013003375400d149a26cac8009",
+      "hash": "0e162da7141476a8791128d281193c19a197dc60de306037d9ddb6ec"
+    }
+  ],
+  "definitions": {
+    "Data": {
+      "title": "Data",
+      "description": "Any Plutus data."
+    }
+  }
+}
