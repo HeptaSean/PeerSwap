@@ -49,7 +49,8 @@ chain.
 
 Related work to this is @fallen-icarus'
 [Cardano-Swaps](https://github.com/fallen-icarus/cardano-swaps) where our
-system is designed from scratch and tries to be as minimal as poosible.
+system is designed from scratch and tries to be as minimal as poosible, even
+simpler than Cardano-Swaps.
 
 The goal is that almost every user of the system can read the contracts
 themselves to verify that it does what they want it to do.
