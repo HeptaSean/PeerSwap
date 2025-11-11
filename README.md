@@ -2,9 +2,6 @@ PeerSwap
 ========
 Cardano smart contract for self-custodial swaps
 
-This is a project to be submitted for the Layer-Up hackathon at Day 0 of
-Cardano Summit 2025.
-
 Motivation
 ----------
 One of the original ideas of cryptocurrencies was to get rid of unnecessary
